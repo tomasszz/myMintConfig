@@ -1,3 +1,12 @@
+#Epson WF-7710 drivers
+#LSB Installer
+apt install lsb
+#scanner
+https://support.epson.net/linux/en/imagescanv3.php
+https://download2.ebz.epson.net/imagescanv3/linuxmint/lts1/deb/x64/imagescan-bundle-linuxmint-20-3.65.0.x64.deb.tar.gz
+#printer
+
+
 #zsh + slimzsh
 sudo apt install git
 git clone --recursive https://github.com/changs/slimzsh.git ~/.slimzsh
@@ -11,6 +20,9 @@ wget -O .zshrc -P ./home/tomasz https://raw.githubusercontent.com/tomasszz/myMin
 wget -P ./home/tomasz https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/gnome-terminal/aura-theme.dconf
 dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < ~/aura-theme.dconf
 
+#Aura theme walpapers
+https://github.com/daltonmenezes/aura-theme/tree/main/packages/wallpapers
+
 #snap store
 sudo rm /etc/apt/preferences.d/nosnap.pref
 sudo apt update
@@ -19,6 +31,18 @@ sudo snap instll snap-store
 
 #install snaps
 sudo snap install code --classic
+sudo snap install atom --classic
+sudo snap install webstorm --classic
+sudo snap install intellij-ide-community --classic
+sudo snap install pycharm-community --classic
 sudo snap install blender --classic
 sudo snap install gimp --classic
-sudo snap install inkscape -- classic
+sudo snap install inkscape --classic
+sudo snap install freecad
+sudo snap install spotify
+
+#apt install
+sudo apt install steam
+sudo apt install chromium-browser
+sudo apt install wine
+
